@@ -1,5 +1,15 @@
+import { Navbar } from "../components/navbar";
+import "bootstrap/dist/css/bootstrap.css";
+import { Home } from "../components/home";
+
 export default () => (
-  <main>
-    <h1>Mon site</h1>
-  </main>
+  <>
+    <div>
+      <Navbar />
+
+      <Home />
+      <br />
+      <h1 className="text-center">Mon site</h1>
+    </div>
+  </>
 );

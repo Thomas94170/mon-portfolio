@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   height:auto;
   align-content: space-between;
-  max-width: 400px;
+  max-width: 800px;
   margin: auto;
 
 }
@@ -11,8 +11,10 @@
 .spinnerItem {
   font-size: x-large;
   border-radius: 25px;
-  border: 1px solid Black;
-  background: #d1fb96;
+  border: 2px solid #A41623;
+  background: white;
   padding: 20px; 
   margin: 10px;
 }
+
+
