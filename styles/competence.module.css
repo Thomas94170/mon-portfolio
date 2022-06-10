@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Cairo";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/Cairo-VariableFont_wght.ttf) format("woff2");
+  }
+
+  @font-face {
+    font-family: "Viga";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/Viga-Regular.ttf) format("woff2");
+  }
+
+.aboutme{
+    font-family: "Viga";
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #C44536;
+    font-style: oblique;
+    text-shadow: 1px 1px #EDDDD4;
+}
+
+.formation{
+    font-family: "Viga";
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #C44536;
+    font-style: oblique;
+    text-shadow: 1px 1px #EDDDD4;
+}
+
+.me
+.contenu{
+  font-family: "Cairo";  
+}

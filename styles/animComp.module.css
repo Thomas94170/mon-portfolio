@@ -17,4 +17,42 @@
   margin: 10px;
 }
 
+.framework
+{
+  font-family: "Viga";
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #C44536;
+    font-style: oblique;
+    text-shadow: 1px 1px #EDDDD4;
+}
+
+.informatique{
+  font-family: "Viga";
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #C44536;
+    font-style: oblique;
+    text-shadow: 1px 1px #EDDDD4;
+}
+
+.langue{
+  font-family: "Viga";
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #C44536;
+    font-style: oblique;
+    text-shadow: 1px 1px #EDDDD4;
+}
+
+.hobby{
+  font-family: "Viga";
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #C44536;
+    font-style: oblique;
+    text-shadow: 1px 1px #EDDDD4;
+}
+
+
 

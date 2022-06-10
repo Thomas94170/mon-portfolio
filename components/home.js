@@ -11,20 +11,27 @@ export const Home = () => {
           <br />
           <br />
           <br />
+
           <p className={styles.nom}>THIRION Thomas</p>
+
           <br />
           <br />
 
           <br />
           <div className="d-flex justify-content-evenly">
             <p className={styles.job}>Dev Web</p>
-            <p className={styles.job1}>Full Stack</p>
+            <p className={styles.job}>Full Stack</p>
           </div>
+          <br />
+          <br />
+          <br />
+          <button className={styles.pdf}>
+            <a className="btn" href="" target="_blank">
+              Télécharger CV
+            </a>
+          </button>
+          <br />
 
-          <br />
-          <br />
-          <br />
-          <br />
           <br />
           <br />
           <br />

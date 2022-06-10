@@ -1,6 +1,7 @@
 import { Navbar } from "../components/navbar";
 import "bootstrap/dist/css/bootstrap.css";
 import { Home } from "../components/home";
+import { Footer } from "../components/footer";
 
 export default () => (
   <>
@@ -8,8 +9,8 @@ export default () => (
       <Navbar />
 
       <Home />
-      <br />
-      <h1 className="text-center">Mon site</h1>
+
+      <Footer />
     </div>
   </>
 );

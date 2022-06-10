@@ -6,6 +6,14 @@
     src: url(../fonts/Cairo-VariableFont_wght.ttf) format("woff2");
   }
 
+  @font-face {
+    font-family: "Viga";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/Viga-Regular.ttf) format("woff2");
+  }
+
 
 .banner{
     background-image: url("../img/coding.jpg");
@@ -16,31 +24,51 @@
     margin:10px 20px 10px 20px;
     /* margin: auto; */
     border-radius: 15px;
-    border:4px solid #8B2635;
+    border:3px solid #C44536;
    
 }
 
 .nom{
     
     font-family: "Cairo";
-    color: #D3EFBD;
+    color: #C44536;
     font-size: 40px;
     font-style: oblique;
-    text-shadow: 1px 1px #E0E2DB;
+    text-shadow: 1px 1px #EDDDD4;
+    letter-spacing: 1px;
     
 }
 
 .job{
     font-family: "Cairo";
-    color: #2E3532;
+    color: #C44536;
     font-size: 40px;
     font-style: oblique;
-    text-shadow: 1px 1px #8B2635;
+    text-shadow: 1px 1px #EDDDD4;
 }
-.job1{
-    font-family: "Cairo";
-    color: #D3EFBD;
-    font-size: 40px;
-    font-style: oblique;
-    text-shadow: 1px 1px #E0E2DB;
+
+
+
+.pdf{
+    
+    
+        font-family: "Viga";
+    background-color: #197278;
+    border-radius: 25px;
+    font-size: 30px;
+    text-shadow: 1px 1px #EDDDD4;
+    border: 3px solid #283D3B ;
+    box-shadow: 3px 6px #EDDDD4;
 }
+
+.pdf:global{
+    text-decoration: none;
+}
+
+
+
+
+  
+
+
+
