@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import styles from "../styles/Competence.module.css";
+import styles from "../styles/competence.module.css";
 
 export const AboutMe = () => {
   return (
