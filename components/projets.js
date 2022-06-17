@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import styles from "../styles/projets.module.css";
+import styles from "../styles/Projets.module.css";
 import Image from "next/image";
 import de from "../img/De.png";
 import photographe from "../img/photographe.png";

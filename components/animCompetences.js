@@ -2,7 +2,7 @@
 // import { useParallaxController } from "react-scroll-parallax";
 import React from "react";
 import { useParallax } from "react-scroll-parallax";
-import styles from "../styles/animComp.module.css";
+import styles from "../styles/AnimComp.module.css";
 import "bootstrap/dist/css/bootstrap.css";
 
 export const AnimCompetences = () => {
