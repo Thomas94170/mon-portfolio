@@ -25,6 +25,23 @@
     color: #C44536;
     font-style: oblique;
     text-shadow: 1px 1px #EDDDD4;
+    display: inline;
+}
+
+.framework::after{
+  content:"";
+  display: block;
+  height: 3px;
+  width: auto;
+  background-color: #C44536;
+  transform: translate(-50%, -50%);
+    transform: scale(0);
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.framework:hover::after{
+  transform: scale(1);
 }
 
 .informatique{
@@ -34,6 +51,23 @@
     color: #C44536;
     font-style: oblique;
     text-shadow: 1px 1px #EDDDD4;
+    display: inline;
+}
+
+.informatique::after{
+  content:"";
+  display: block;
+  height: 3px;
+  width: auto;
+  background-color: #C44536;
+  transform: translate(-50%, -50%);
+    transform: scale(0);
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.informatique:hover::after{
+  transform: scale(1);
 }
 
 .langue{
@@ -43,6 +77,23 @@
     color: #C44536;
     font-style: oblique;
     text-shadow: 1px 1px #EDDDD4;
+    display: inline;
+}
+
+.langue::after{
+  content:"";
+  display: block;
+  height: 3px;
+  width: auto;
+  background-color: #C44536;
+  transform: translate(-50%, -50%);
+    transform: scale(0);
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.langue:hover::after{
+  transform: scale(1);
 }
 
 .hobby{
@@ -52,7 +103,22 @@
     color: #C44536;
     font-style: oblique;
     text-shadow: 1px 1px #EDDDD4;
+    display: inline;
 }
 
+.hobby::after{
+  content:"";
+  display: block;
+  height: 3px;
+  width: auto;
+  background-color: #C44536;
+  transform: translate(-50%, -50%);
+    transform: scale(0);
+    transition: transform 0.2s ease-in-out;
 
+}
+
+.hobby:hover::after{
+  transform: scale(1);
+}
 

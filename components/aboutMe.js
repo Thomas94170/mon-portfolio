@@ -28,12 +28,12 @@ export const AboutMe = () => {
         <p className="text-center">
           J'affectionne tout particulièrement React et son framework Next.js
           ainsi que la gestion des API dans le domaine du front end. Pour le
-          back-end, symfony m'attire tout particulièrement
+          back-end, symfony m'attire tout particulièrement.
         </p>
         <br />
         <p className="text-center">
           Je suis pleinement conscient du manque d'expériences de ma part, mais
-          ma motivation et ma curiosité sera un atout pour vous
+          ma motivation et ma curiosité seront un atout pour vous.
         </p>
       </div>
       <br />
@@ -45,7 +45,7 @@ export const AboutMe = () => {
       <div className={styles.contenu}>
         <p className="text-center">
           Graduate Développeur mobile Android au sein de l'école Studi depuis le
-          10/08/2021
+          10/08/2021.
         </p>
       </div>
     </>

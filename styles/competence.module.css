@@ -21,6 +21,25 @@
     color: #C44536;
     font-style: oblique;
     text-shadow: 1px 1px #EDDDD4;
+    display: inline;
+    
+    
+}
+
+.aboutme::after{
+  content:"";
+  display: block;
+  height: 3px;
+  width: auto;
+  background-color: #C44536;
+  transform: translate(-50%, -50%);
+    transform: scale(0);
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.aboutme:hover::after{
+  transform: scale(1);
 }
 
 .formation{
@@ -30,7 +49,26 @@
     color: #C44536;
     font-style: oblique;
     text-shadow: 1px 1px #EDDDD4;
+    display: inline;
 }
+
+.formation::after{
+  content:"";
+  display: block;
+  height: 3px;
+  width: auto;
+  background-color: #C44536;
+  transform: translate(-50%, -50%);
+    transform: scale(0);
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.formation:hover::after{
+  transform: scale(1);
+}
+
+
 
 .me
 .contenu{
